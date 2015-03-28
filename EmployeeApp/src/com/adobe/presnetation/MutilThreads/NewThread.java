@@ -33,7 +33,7 @@ public class NewThread implements Runnable {
 	public void run() {
 		// TODO Auto-generated method stub
 		try {
-			for (int j = 100; j > 50; j--) {
+			for (int j = 60; j > 50; j--) {
 				// System.out.println("Child thread" + j);
 				System.out.println(Thread.currentThread().getName()
 						+ " child count " + j);

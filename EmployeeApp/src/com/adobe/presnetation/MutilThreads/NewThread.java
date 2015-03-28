@@ -43,7 +43,7 @@ public class NewThread implements Runnable {
 		} catch (InterruptedException e) {
 			System.out.println("Child interrrupted");
 		}
-		System.out.println("Exiting child at ");
+		System.out.println("Exiting child finaly");
 		count = count + 1;
 	}
 
